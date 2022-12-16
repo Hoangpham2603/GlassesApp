@@ -1,0 +1,15 @@
+@keyframes animationGlass { 
+    from{ 
+        width: 0 ;
+    }
+    to{
+        width: 150px;
+    }
+}
+
+glassStyle{
+    width: 250px;
+    animation: animationGlass 2s ;
+    background-color: red;
+
+}
